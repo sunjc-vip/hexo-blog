@@ -2,14 +2,44 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
+# 用于浏览器标签的图标
+favicon: /img/favicon.ico
+
+# 用于苹果设备的图标
+apple_touch_icon: /img/apple-touch-icon.png
+
+# 浏览器标签页中的标题分隔符，效果：文章名 - 站点名
+tab_title_separator: " - "
+
+# 强制所有链接升级为 HTTPS（适用于图片等资源出现 HTTP 混入报错）
+force_https: true
+
+# 一些好玩的功能
+fun_features:
+  # 为 subtitle 添加打字机效果
+  typing:
+    enable: false
+
+#---------------------------
+# 首页
+# Home Page
+#---------------------------
+
+index:
+  banner_img: /img/default.jpg
+  banner_img_height: 40
+  banner_mask_alpha: 0
+  slogan:
+    enable: false
+
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: sunjc
+subtitle: ""
+description: ""
 keywords:
 author: John Doe
 language: en
-timezone: ''
+timezone: ""
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -37,7 +67,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -47,20 +77,20 @@ syntax_highlighter: highlight.js
 highlight:
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 prismjs:
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
@@ -80,7 +110,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: "mtime"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -101,4 +131,4 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: ""
