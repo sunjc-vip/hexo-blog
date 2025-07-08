@@ -20,7 +20,6 @@ fun_features:
   typing:
     enable: false
 
-
 # 导航栏的相关配置
 navbar:
   # 导航栏左侧的标题，为空则按 hexo config 中 `title` 显示
@@ -40,16 +39,16 @@ navbar:
 #---------------------------
 footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
-  content: 'Copyright © 2025 sunjc.vip'
+  content: "Copyright © 2025 sunjc.vip"
   # 国内大陆服务器的备案信息
-  beian: 
+  beian:
     enable: true
     # ICP证号
     icp_text: 津ICP备2025032228号-1
     # 公安备案号，不填则只显示ICP
-    police_text: ''
+    police_text: ""
     # 公安备案的编号，用于URL跳转查询
-    police_code: ''
+    police_code: ""
     # 公安备案的图片. 为空时不显示备案图片
     police_icon: /img/police_beian.png
 
@@ -65,7 +64,6 @@ index:
   slogan:
     enable: false
 
-
 #---------------------------
 # 文章页
 # Post Page
@@ -75,8 +73,8 @@ post:
   banner_img_height: 45
   banner_mask_alpha: 0.3
   # 文章在首页的默认封面图，当没有指定 index_img 时会使用该图片，若两者都为空则不显示任何图片
-  default_index_img: 
-   # 文章标题下方的元信息
+  default_index_img:
+    # 文章标题下方的元信息
   meta:
     # 作者，优先根据 front-matter 里 author 字段，其次是 hexo 配置中 author 值
     author:
@@ -102,6 +100,23 @@ post:
       awl: 2
       # 每分钟阅读字数，如果大部分是技术文章可适度调低
       wpm: 60
+  # 评论插件
+  comments:
+    enable: true
+    # 指定的插件，需要同时设置对应插件的必要参数
+    # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
+    type: utterances
+
+# Utterances
+# 基于 GitHub Issues
+# Based on GitHub Issues
+# See: https://utteranc.es
+utterances:
+  repo: sunjc-vip/blog-comment
+  issue_term: pathname
+  label: utterances
+  theme: github-light
+  theme_dark: github-dark
 
 # Site
 title: Sunjc
