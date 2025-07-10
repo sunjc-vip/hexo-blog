@@ -1,79 +1,129 @@
 ---
-title: markdown语法
+title: markdown 查询手册
 date: 2025-07-07 22:37:53
 index_img: https://sunjc.vip/oss/2025/07/HAFcpS.png
 tags:
 ---
 
-## 😲 md-editor-v3
+## 标题展示
 
-Markdown 编辑器，vue3 版本，使用 jsx 模板 和 typescript 开发，支持切换主题、prettier 美化文本等。
+## 加粗展示
 
-### 🤖 基本演示
+**加粗内容**
 
-**加粗**，<u>下划线</u>，_斜体_，~~删除线~~，上标^26^，下标~1~，`inline code`，[超链接](https://github.com/imzbf)
+## 斜体展示
+
+_斜体内容_
+
+## 删除线
+
+~~删除线内容~~
+
+## 超链接
+
+[百度](https://www.baidu.com)
+
+## 图片展示
+
+![6GIYPR](https://sunjc.vip/oss/2025/07/6GIYPR.png)
+
+## 列表展示
+
+### 无序列表
+
+- 项 1
+- 项 2
+- 项 3
+
+### 有序列表
+
+1. 项 1
+2. 项 2
+3. 项 3
+
+## 引用展示
 
 > 引用：《I Have a Dream》
 
-1. So even though we face the difficulties of today and tomorrow, I still have a dream.
-2. It is a dream deeply rooted in the American dream.
-3. I have a dream that one day this nation will rise up.
+## 代码展示
+
+### 行内代码
+
+行内代码示例：`print("hello world")`
+
+### 代码块
+
+```javascript
+console.log("hello world");
+```
+
+## 表格展示
+
+| 表头 1 |  表头 2  | 表头 3 | 表头 4 |
+| :----- | :------: | -----: | ------ |
+| 左对齐 | 中间对齐 | 右对齐 | 默认   |
+| 内容 1 |  内容 2  | 内容 3 | 内容 4 |
+| 内容 5 |  内容 6  | 内容 7 | 内容 8 |
+
+## 任务列表
 
 - [ ] 周五
 - [ ] 周六
 - [x] 周天
 
-![图片](https://imzbf.github.io/md-editor-rt/imgs/mark_emoji.gif)
+## 脚注
 
-## 🤗 代码演示
+这是一句话[^1]
 
-```vue
-<template>
-  <MdEditor v-model="text" />
-</template>
+## Tag 插件
 
-<script setup>
-import { ref } from 'vue';
-import { MdEditor } from 'md-editor-v3';
-import 'md-editor-v3/lib/style.css';
+{% note success %}
+文字 或者 `markdown` 均可
+{% endnote %}
 
-const text = ref('Hello Editor!');
-</script>
-```
+{% note primary %}
+primary
+{% endnote %}
 
-## 🖨 文本演示
+{% note secondary %}
+secondary
+{% endnote %}
 
-依照普朗克长度这项单位，目前可观测的宇宙的直径估计值（直径约 930 亿光年，即 8.8 × 10^26^ 米）即为 5.4 × 10^61^倍普朗克长度。而可观测宇宙体积则为 8.4 × 10^184^立方普朗克长度（普朗克体积）。
+{% note success %}
+success
+{% endnote %}
 
-## 📈 表格演示
+{% note danger %}
+danger
+{% endnote %}
 
-| 表头 1 |  表头 2  | 表头 3 |
-| :----- | :------: | -----: |
-| 左对齐 | 中间对齐 | 右对齐 |
+{% note warning %}
+warning
+{% endnote %}
 
-## 📏 公式
+{% note info %}
+info
+{% endnote %}
 
-行内：$x+y^{2x}$
+{% note light %}
+light
+{% endnote %}
 
-$$
-\sqrt[3]{x}
-$$
+## 行内标签
 
-## 🧬 图表
+{% label primary @text %}
+{% label default @text %}
+{% label info @text %}
+{% label success @text %}
+{% label warning @text %}
+{% label danger @text %}
 
-```mermaid
-flowchart TD
-  Start --> Stop
-```
+## 折叠块
 
-## 🪄 提示
+{% fold info @title %}
+需要折叠的一段内容，支持 markdown
+{% endfold %}
 
-!!! note 支持的类型
+---
 
-note、abstract、info、tip、success、question、warning、failure、danger、bug、example、quote、hint、caution、error、attention
-
-!!!
-
-## ☘️ 占个坑@！
-
-没了
+[^1]: 这是对应的脚注
