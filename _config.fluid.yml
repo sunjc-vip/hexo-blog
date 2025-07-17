@@ -46,9 +46,9 @@ footer:
     # ICP证号
     icp_text: 津ICP备2025032228号-1
     # 公安备案号，不填则只显示ICP
-    police_text: ""
+    police_text: "津公网安备12011202001010号"
     # 公安备案的编号，用于URL跳转查询
-    police_code: ""
+    police_code: "12011202001010"
     # 公安备案的图片. 为空时不显示备案图片
     police_icon: /img/police_beian.png
 
