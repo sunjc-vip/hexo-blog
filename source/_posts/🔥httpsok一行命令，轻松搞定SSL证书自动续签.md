@@ -1,5 +1,5 @@
 ---
-title: 🔥httpsok一行命令，轻松搞定SSL证书自动续签
+title: httpsok一行命令，轻松搞定SSL证书自动续签
 index_img: https://sunjc.vip/oss/2025/07/j3Yoc1.png
 date: 2025-07-19 05:53:17
 tags: https
