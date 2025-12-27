@@ -1,6 +1,6 @@
 ---
 title: 手写代码new
-index_img: https://sunjc.vip/oss/2025/07/Ip7W0o.png
+index_img: https://sunjc.vip/oss/2025/12/4.png
 date: 2025-07-07 22:34:33
 tags: 手写代码
 ---
