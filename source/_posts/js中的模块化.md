@@ -16,7 +16,7 @@ comments: true
 - 代码可测试性：每个模块都可以独立测试，提高了代码的可测试性。
 
 ## JavaScript中的模块化方案
-1. **CommonJS**：主要用于Node.js环境，通过`require`和`module
+1. **CommonJS**：主要用于Node.js环境，核心特点是同步加载模块，通过`require`和`module 
 .exports`实现模块的导入和导出。
 
     ```javascript
@@ -53,34 +53,37 @@ comments: true
     import { a } from './模块A';
     console.log(a); // 输出: 10
     ```
-4. **UMD（Universal Module Definition）**：一种通用的模块定义方式，兼容CommonJS、AMD和全局变量。
+4. **UMD（Universal Module Definition）**：一种通用的模块定义方式，兼容性包装器，兼容CommonJS、AMD和全局变量。UMD 的代码逻辑本质是 “环境检测 + 适配导出”，根据当前环境选择合适的模块定义方式。
+> 1. 先检测是否支持 Node.js/CommonJS 环境（module.exports 存在）；
+> 2. 再检测是否支持 AMD 环境（define 函数存在）；
+> 3. 若都不支持，则将模块挂载到浏览器的全局对象（如 window）上。
 
     ```javascript   
-        // 模块A
-        (function(root, factory) {
-            if (typeof define === 'function' && define.amd) {
-                define(['依赖模块'], factory);
-            } else if (typeof module === 'object' && module.exports) {
-                module.exports = factory(require('依赖模块'));
-            } else {
-                root.模块A = factory(root.依赖模块);
-            }
-        }(this, function(依赖模块) {
-            const a = 10;
-            return a;
-        }));    
-        // 模块B
-        (function(root, factory) {
-            if (typeof define === 'function' && define.amd) {
-                define(['模块A'], factory);
-            } else if (typeof module === 'object' && module.exports) {
-                module.exports = factory(require('模块A'));
-            } else {
-                root.模块B = factory(root.模块A);
-            }
-        }(this, function(模块A) {
-            console.log(模块A.a); // 输出: 10
-        }));    
+
+(function (root, factory) {
+  // 1. 检测 CommonJS/Node.js 环境
+  if (typeof module === 'object' && typeof module.exports === 'object') {
+    module.exports = factory();
+  }
+  // 2. 检测 AMD 环境
+  else if (typeof define === 'function' && define.amd) {
+    define([], factory);
+  }
+  // 3. 浏览器全局变量环境
+  else {
+    root.SumUtils = factory();
+  }
+}(this, function () {
+  // 模块核心逻辑（真正的功能代码）
+  const sum = (a, b) => a + b;
+  const double = (num) => num * 2;
+
+  // 暴露模块内容
+  return {
+    sum,
+    double
+  };
+})); 
     ``` 
 5. **模块打包工具**：如Webpack、Rollup等，可以将多个模块打包成一个文件，方便在浏览器中使用。
 ## 总结
