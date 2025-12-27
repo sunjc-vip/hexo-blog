@@ -58,7 +58,7 @@ footer:
 #---------------------------
 
 index:
-  banner_img: /img/default.jpg
+  banner_img: /img/default.png
   banner_img_height: 40
   banner_mask_alpha: 0
   slogan:
