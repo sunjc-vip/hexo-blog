@@ -1,7 +1,7 @@
 ---
 title: markdown 查询手册
 date: 2020-01-03 22:37:53
-index_img: https://sunjc.vip/oss/2025/12/1.png
+index_img: https://sunjc.vip/oss/2025/12/1.webp
 tags: 其他
 ---
 

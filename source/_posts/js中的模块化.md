@@ -1,6 +1,6 @@
 ---
 title: js中的模块化
-index_img: https://sunjc.vip/oss/2025/12/abc_cleanup.png
+index_img: https://sunjc.vip/oss/2025/12/5.webp
 date: 2024-01-19 08:13:22
 tags: 总结
 comments: true
