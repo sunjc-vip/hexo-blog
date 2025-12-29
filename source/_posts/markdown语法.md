@@ -73,7 +73,7 @@ _斜体内容_
 
 ## 图片展示
 
-![6GIYPR](https://sunjc.vip/oss/2025/07/6GIYPR.png)
+![6GIYPR](https://sunjc.vip/oss/2025/07/6GIYPR.webp)
 
 {% fold info @源码 %}
 
