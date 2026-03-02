@@ -1,6 +1,6 @@
 ---
 title: 手写Promise
-index_img: https://sunjc.vip/oss/2025/12/yh.webp
+index_img: https://sunjc.vip/oss/2026/03/promise.webp
 date: 2025-12-21 20:11:04
 tags: JavaScript
 comments: true
