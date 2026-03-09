@@ -31,6 +31,7 @@ navbar:
     alpha: 1
   # 导航栏菜单，可自行增减，key 用来关联 languages/*.yml，如不存在关联则显示 key 本身的值；icon 是 css class，可以省略；增加 name 可以强制显示指定名称
   menu:
+    - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "guestbook", link: "/guestbook/", icon: "iconfont icon-note", name: "留言板" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
 
@@ -92,7 +93,7 @@ post:
     # 字数统计
     # Word count
     wordcount:
-      enable: false
+      enable: true
 
     # 估计阅读全文需要的时长
     min2read:
@@ -107,6 +108,22 @@ post:
     # 指定的插件，需要同时设置对应插件的必要参数
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
     type: utterances
+
+#---------------------------
+# 标签页
+# Tag Page
+#---------------------------
+tag:
+  enable: true
+  banner_img: /img/default.webp
+  banner_img_height: 40
+  banner_mask_alpha: 0.3
+  tagcloud:
+    min_font: 15
+    max_font: 30
+    unit: px
+    start_color: "#BBBBEE"
+    end_color: "#337ab7"
 
 #---------------------------
 # 关于页

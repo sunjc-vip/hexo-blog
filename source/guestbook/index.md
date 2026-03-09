@@ -1,6 +1,7 @@
 ---
 title: 留言板
 layout: page
+index_img: /img/default.webp
 comment: 'utterances'
 ---
 
