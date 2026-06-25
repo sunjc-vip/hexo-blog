@@ -1,6 +1,6 @@
 ---
 title: webpack 怎么提高构建速度？
-index_img: https://sunjc.vip/oss/2026/03/nn.webp
+index_img: https://img.sunjc.vip/2026/03/nn.webp
 date: 2025-06-27 09:31:44
 tags: webpack
 comments: true

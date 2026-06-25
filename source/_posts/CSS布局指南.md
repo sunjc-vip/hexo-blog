@@ -1,6 +1,6 @@
 ---
 title: CSS 布局指南
-index_img: https://sunjc.vip/oss/2026/03/css.webp
+index_img: https://img.sunjc.vip/2026/03/css.webp
 date: 2025-11-18 16:42:27
 tags: CSS
 comments: true

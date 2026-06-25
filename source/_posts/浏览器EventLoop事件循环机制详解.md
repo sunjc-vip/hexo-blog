@@ -1,6 +1,6 @@
 ---
 title: 浏览器 Event Loop 事件循环机制详解
-index_img: https://sunjc.vip/oss/2026/03/jj.webp
+index_img: https://img.sunjc.vip/2026/03/jj.webp
 date: 2024-01-29 08:42:56
 tags: JavaScript
 comments: true

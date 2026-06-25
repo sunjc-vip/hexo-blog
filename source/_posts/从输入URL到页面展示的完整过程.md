@@ -1,6 +1,6 @@
 ---
 title: 浏览器从输入网址到页面加载的整个过程
-index_img: https://sunjc.vip/oss/2026/03/gg.webp
+index_img: https://img.sunjc.vip/2026/03/gg.webp
 date: 2024-06-01 09:47:03
 tags: 浏览器
 comments: true

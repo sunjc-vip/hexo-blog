@@ -1,6 +1,6 @@
 ---
 title: Vue 中 computed 和 watch 的核心区别
-index_img: https://sunjc.vip/oss/2026/03/ccc.webp
+index_img: https://img.sunjc.vip/2026/03/ccc.webp
 date: 2025-06-19 09:24:58
 tags: Vue
 comments: true

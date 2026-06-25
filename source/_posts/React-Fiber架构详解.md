@@ -1,6 +1,6 @@
 ---
 title: React Fiber 架构详解：为什么要 Fiber？它解决了什么？
-index_img: https://sunjc.vip/oss/2026/03/eee.webp
+index_img: https://img.sunjc.vip/2026/03/eee.webp
 date: 2025-07-20 09:58:31
 tags: React
 comments: true

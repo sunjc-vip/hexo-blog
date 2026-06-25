@@ -1,6 +1,6 @@
 ---
 title: httpsok一行命令，轻松搞定SSL证书自动续签
-index_img: https://sunjc.vip/oss/2025/12/3.webp
+index_img: https://img.sunjc.vip/2025/12/3.webp
 date: 2025-07-19 05:53:17
 tags: https
 comments: true
@@ -17,31 +17,31 @@ comments: true
 ## 申请SSL证书
 
 打开 [httpsok](https://httpsok.com/p/51MZ) ，登录后，点击【申请证书】
-![申请证书](https://sunjc.vip/oss/2025/07/JAE20M.webp)
+![申请证书](https://img.sunjc.vip/2025/07/JAE20M.webp)
 
 ​输入自己的域名（我这里演示是 *sunjc.vip ）并且提交申请
 
-![](https://sunjc.vip/oss/2025/07/s8fUNi.webp)
+![](https://img.sunjc.vip/2025/07/s8fUNi.webp)
 
 ## 添加DNS解析
 
 因为证书签发时，CA厂商要验证这个域名是否属于您，需要您在域名服务商处添加一条 DNS 解析记录。
 
-![](https://sunjc.vip/oss/2025/07/7uMOLJ.webp)
+![](https://img.sunjc.vip/2025/07/7uMOLJ.webp)
 
 
 ## 部署SSL证书
 
 点击按钮复制安装命令。
 
-![](https://sunjc.vip/oss/2025/07/WF00jb.webp)
+![](https://img.sunjc.vip/2025/07/WF00jb.webp)
 
 ## 到服务器，粘贴并执行刚刚复制的命令，回车 此时 自动更新SSL证书，并且自动重载nginx
 
-![](https://sunjc.vip/oss/2025/07/adv337.webp)
+![](https://img.sunjc.vip/2025/07/adv337.webp)
 
 ## 通过HTTPS访问网站
 
 查看证书详情
 
-![](https://sunjc.vip/oss/2025/07/4O6DiD.webp)
+![](https://img.sunjc.vip/2025/07/4O6DiD.webp)

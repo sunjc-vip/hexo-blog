@@ -1,6 +1,6 @@
 ---
 title: 手写 Vue 常用指令实践（v-model / v-show / v-focus…）
-index_img: https://sunjc.vip/oss/2026/03/ccc.webp
+index_img: https://img.sunjc.vip/2026/03/ccc.webp
 date: 2025-07-22 10:21:54
 tags: Vue
 comments: true

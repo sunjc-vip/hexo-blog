@@ -1,6 +1,6 @@
 ---
 title: webpack 的构建流程详解
-index_img: https://sunjc.vip/oss/2026/03/nn.webp
+index_img: https://img.sunjc.vip/2026/03/nn.webp
 date: 2024-12-12 20:33:21
 tags: webpack
 comments: true

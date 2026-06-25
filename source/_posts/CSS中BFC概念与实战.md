@@ -1,6 +1,6 @@
 ---
 title: CSS 中 BFC 概念与实战
-index_img: https://sunjc.vip/oss/2026/03/ff.webp
+index_img: https://img.sunjc.vip/2026/03/ff.webp
 date: 2024-11-22 17:44:39
 tags: CSS
 comments: true

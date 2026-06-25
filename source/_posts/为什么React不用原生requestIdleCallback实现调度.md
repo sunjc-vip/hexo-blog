@@ -1,6 +1,6 @@
 ---
 title: 为什么 React 不直接用原生 requestIdleCallback 实现调度？
-index_img: https://sunjc.vip/oss/2026/03/eee.webp
+index_img: https://img.sunjc.vip/2026/03/eee.webp
 date: 2025-07-23 09:36:12
 tags: React
 comments: true

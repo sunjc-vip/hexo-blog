@@ -1,6 +1,6 @@
 ---
 title: JavaScript 垃圾回收机制与内存管理
-index_img: https://sunjc.vip/oss/2026/03/cc.webp
+index_img: https://img.sunjc.vip/2026/03/cc.webp
 date: 2024-09-03 13:21:07
 tags: JavaScript
 comments: true

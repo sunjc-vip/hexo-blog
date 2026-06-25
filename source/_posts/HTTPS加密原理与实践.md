@@ -1,6 +1,6 @@
 ---
 title: HTTPS 加密原理与实践
-index_img: https://sunjc.vip/oss/2026/03/kk.webp
+index_img: https://img.sunjc.vip/2026/03/kk.webp
 date: 2024-07-15 11:56:29
 tags: 网络
 comments: true

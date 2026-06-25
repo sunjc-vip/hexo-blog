@@ -1,6 +1,6 @@
 ---
 title: JavaScript 中的原型与原型链
-index_img: https://sunjc.vip/oss/2026/03/ll.webp
+index_img: https://img.sunjc.vip/2026/03/ll.webp
 date: 2024-05-20 14:11:33
 tags: JavaScript
 comments: true

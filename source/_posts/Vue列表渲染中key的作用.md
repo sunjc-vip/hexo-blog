@@ -1,6 +1,6 @@
 ---
 title: Vue 列表渲染中 key 的作用
-index_img: https://sunjc.vip/oss/2026/03/mm.webp
+index_img: https://img.sunjc.vip/2026/03/mm.webp
 date: 2025-04-30 12:18:59
 tags: Vue
 comments: true

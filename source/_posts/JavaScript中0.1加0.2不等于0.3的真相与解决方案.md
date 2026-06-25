@@ -1,6 +1,6 @@
 ---
 title: JavaScript 中 0.1 + 0.2 不等于 0.3 的真相与解决方案
-index_img: https://sunjc.vip/oss/2026/03/tmp.webp
+index_img: https://img.sunjc.vip/2026/03/tmp.webp
 date: 2026-01-05 21:07:12
 tags: JavaScript
 comments: true

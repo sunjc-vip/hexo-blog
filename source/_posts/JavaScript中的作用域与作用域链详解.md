@@ -1,6 +1,6 @@
 ---
 title: JavaScript 中的作用域与作用域链详解
-index_img: https://sunjc.vip/oss/2026/03/bb.webp
+index_img: https://img.sunjc.vip/2026/03/bb.webp
 date: 2024-04-09 15:32:18
 tags: JavaScript
 comments: true

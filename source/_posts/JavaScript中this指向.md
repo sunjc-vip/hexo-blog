@@ -1,6 +1,6 @@
 ---
 title: JavaScript 中 this 指向
-index_img: https://sunjc.vip/oss/2026/03/iShot_2026-03-04_10.16.33.webp
+index_img: https://img.sunjc.vip/2026/03/iShot_2026-03-04_10.16.33.webp
 date: 2024-02-18 10:23:45
 tags: JavaScript
 comments: true

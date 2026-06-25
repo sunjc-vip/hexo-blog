@@ -1,7 +1,7 @@
 ---
 title: markdown 查询手册
 date: 2020-01-03 22:37:53
-index_img: https://sunjc.vip/oss/2025/12/1.webp
+index_img: https://img.sunjc.vip/2025/12/1.webp
 tags: 其他
 ---
 
@@ -73,12 +73,12 @@ _斜体内容_
 
 ## 图片展示
 
-![6GIYPR](https://sunjc.vip/oss/2025/07/6GIYPR.webp)
+![6GIYPR](https://img.sunjc.vip/2025/07/6GIYPR.webp)
 
 {% fold info @源码 %}
 
 ```markdown
-![6GIYPR](https://sunjc.vip/oss/2025/07/6GIYPR.png)
+![6GIYPR](https://img.sunjc.vip/2025/07/6GIYPR.png)
 ```
 
 {% endfold %}

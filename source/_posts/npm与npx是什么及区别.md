@@ -1,6 +1,6 @@
 ---
 title: npm 与 npx 是什么？有什么区别？
-index_img: https://sunjc.vip/oss/2026/03/aaa.webp
+index_img: https://img.sunjc.vip/2026/03/aaa.webp
 date: 2025-05-16 14:09:37
 tags: Node.js
 comments: true

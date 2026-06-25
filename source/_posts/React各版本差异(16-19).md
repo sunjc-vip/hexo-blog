@@ -1,6 +1,6 @@
 ---
 title: React 各版本之间的差异（16 → 19）
-index_img: https://sunjc.vip/oss/2026/03/eee.webp
+index_img: https://img.sunjc.vip/2026/03/eee.webp
 date: 2026-02-03 19:12:46
 tags: React
 comments: true

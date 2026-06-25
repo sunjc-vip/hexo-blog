@@ -1,6 +1,6 @@
 ---
 title: Webpack 中 Plugin 与 Loader 的区别与原理
-index_img: https://sunjc.vip/oss/2026/03/nn.webp
+index_img: https://img.sunjc.vip/2026/03/nn.webp
 date: 2027-02-08 11:04:22
 tags: webpack
 comments: true

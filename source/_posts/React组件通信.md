@@ -1,6 +1,6 @@
 ---
 title: React 组件通信
-index_img: https://sunjc.vip/oss/2026/03/eee.webp
+index_img: https://img.sunjc.vip/2026/03/eee.webp
 date: 2025-07-12 18:03:27
 tags: React
 comments: true
