@@ -43,7 +43,7 @@ layout: about
 
 ## 教育背景
 
-- **北京邮电大学** ｜ 计算机科学与技术
+- **北京邮电大学** ｜ 网络工程
 
 ---
 
@@ -62,6 +62,6 @@ layout: about
 
 ## 联系我
 
-- 📧 Email：sunyun898@sina.com  
+- 📧 Email：sunjc.dev@gmail.com  
 
 感谢你的阅读，期待与你交流与合作。
